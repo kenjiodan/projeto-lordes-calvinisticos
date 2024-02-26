@@ -23,3 +23,32 @@
     --fonte-destaque: 'Thunderbolt', sans-serif;
     --fonte-especial: 'Ghost', sans-serif;
 }
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(70, 0, 0);
+    color: var(--cor0);
+}
+
+header {
+    background-image: linear-gradient(to top, rgb(70, 0, 0), var(--cor3));
+    height: 150px;
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    min-width: 320px;
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+}
+
+article {
+    background-color: var(--cor3);
+    text-align: center;
+}
