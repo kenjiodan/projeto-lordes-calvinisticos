@@ -36,7 +36,7 @@ body {
 }
 
 img {
-    background-color: var(--cor0);
+    .
     border-radius: 10px;
     padding: 5px;
 }
@@ -93,6 +93,11 @@ div.quadrado {
     background-image: linear-gradient(to top, var(--cor4), transparent);
     border-radius: 0px 0px 30px 30px;
     box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.651);
+}
+
+article p:hover {
+    transition-duration: 0.5s;
+    
 }
 
 article {
