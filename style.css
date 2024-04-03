@@ -12,16 +12,22 @@
     src: url(fontes/Thunderbolt.ttf);
 }
 
+@font-face {
+    font-family: 'Dark';
+    src: url(fontes/AngerStyles.ttf);
+}
+
 :root {
     --cor0: #06070E;
     --cor1: #29524A;
     --cor2: #94A187;
-    --cor3: #C20114;
+    --cor3: #81000d;
     --cor4: #FFCD06;
 
     --fonte-padrao: "Kanit", sans-serif;
     --fonte-destaque: 'Thunderbolt', sans-serif;
     --fonte-especial: 'Ghost', sans-serif;
+    --fonte-alternativa: 'Dark',sans-serif;
 }
 
 * {
@@ -30,21 +36,23 @@
 }
 
 body {
-    background-color: rgb(70, 0, 0);
+    background-image: url(https://img.freepik.com/premium-photo/abstract-scratches-black-background-distressed-rough-layer-photo-editing_279525-24313.jpg);
+    background-repeat: repeat;
+    background-size: 100vh;
     font-family: var(--fonte-padrao);
     color: var(--cor0);
 }
 
 img {
-    .
+    
     border-radius: 10px;
     padding: 5px;
 }
 
 header {
-    background-image: linear-gradient(to top, rgb(70, 0, 0), var(--cor3));
-    font-family: var(--fonte-destaque);
-    height: 150px;
+    background-image: linear-gradient(to top, rgb(0, 0, 0), var(--cor3));
+    font-family: var(--fonte-alternativa);
+    min-height: 150px;
     padding-top: 50px;
     margin-bottom: 40px;
     text-align: center;
@@ -52,24 +60,26 @@ header {
 
 header > h1 {
     margin-bottom: 20px;
-    font-size: 2.7em;
-    background-image: linear-gradient(to top, var(--cor4), rgb(199, 199, 31));
-    display: inline-block;
+    max-width: 528px;
+    color: rgb(177, 0, 0);
+    font-size: 3.9em;
+    letter-spacing: 20px;
+    line-height: 65px;
     padding: 15px;
     border-radius: 10px;
-    border: 2px solid black;
 }
 
 header > p {
     color: var(--cor4);
+    font-family: var(--fonte-especial);
     margin: auto;
     max-width: 600px;
     padding: 10px;
-    font-size: 1.4em;
+    font-size: 1.7em;
 }
 
 main {
-    background-color: white;
+    background-image: linear-gradient(to top, black,rgba(255, 255, 255, 0.904));
     border-radius: 20px;
     min-width: 320px;
     max-width: 800px;
