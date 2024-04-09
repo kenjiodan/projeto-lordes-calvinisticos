@@ -59,12 +59,10 @@ header {
 }
 
 header > h1 {
-    margin-bottom: 10px;
-    margin-left: 18px;
-    text-align: center;
+    margin-bottom: 20px;
+    max-width: 528px;
     color: rgb(177, 0, 0);
-    font-size: 3.0em;
-    min-width: 380px;
+    font-size: 3.9em;
     letter-spacing: 20px;
     line-height: 65px;
     padding: 15px;
@@ -75,7 +73,6 @@ header > p {
     color: var(--cor4);
     font-family: var(--fonte-especial);
     margin: auto;
-    min-width: 380px;
     max-width: 600px;
     padding: 10px;
     font-size: 1.7em;
@@ -108,6 +105,11 @@ div.quadrado {
     box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.651);
 }
 
+article p:hover {
+    transition-duration: 0.5s;
+    
+}
+
 article {
     background-color: var(--cor3);
     border-radius: 30px;
@@ -116,7 +118,6 @@ article {
 
 article h2 {
     color: var(--cor4);
-    padding: 0px 3px;
     font-size: 40px;
 }
 
@@ -127,7 +128,7 @@ article h1 {
 
 article p {
     font-size: 20px;
-    text-align: unset;
+    text-align: center;
     padding: 0px 15px 15px 15px;
     color: var(--cor0);
 }
